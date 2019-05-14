@@ -10,5 +10,3 @@ hello wrod, hello second_week
 
 
 (好用的图床工具)[https://sm.ms]
-(稳定好用的idea 破解方法)[http://idea.lanyus.com/]
-(XXL-Job 分布式任务调度平台)[http://www.xuxueli.com/xxl-job/#/]
