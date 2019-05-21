@@ -1,6 +1,7 @@
 ---
 name: first_week
 title: ARTS 第一周
+create_date: 20190409
 url: https://lixiyu.github.io/arts/first_week.html
 ---
 
@@ -52,12 +53,13 @@ class Solution(object):
 
 ## Review
 
-读了一下 jekylly 的官方文档。因为是 GitHub Pages site 官方用的。
+读了一下 jekyll 的官方文档。因为是 GitHub Pages site 官方用的。
 它支持以 Markdown 形式写文章，然后自动转化成 web 页面。
 用 Markdown 文件来管理你的博客&笔记，同时又能以个人网站的形式展现。
 非常赞。以后就用这种方式打卡了。
 
 [jekyll step by step document](https://jekyllrb.com/docs/step-by-step/01-setup/)
+[jekyll 文档 中文版](https://jekyllcn.com/)
 
 
 在本地调试 git-pages 生成的样例，光看官方文档不管用。
