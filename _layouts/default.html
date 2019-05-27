@@ -16,22 +16,15 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-<!--
-        <section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
--->
       </div>
     </header>
 
-    <div class="container">
+    <div id="particles-js">
+    <div class="container" id="particles-js">
       <section id="main_content">
         {{ content }}
       </section>
+    </div>
     </div>
 
     {% if site.google_analytics %}
@@ -44,5 +37,15 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <!-- 微粒子特效 -->
+    <script src="/js/src/particles.js"></script>
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', '/conf/particles.json', function() {
+          document.getElementsByClassName('particles-js-canvas-el')[0].setAttribute("style", "position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.3;");
+          console.log('callback - particles.js config loaded');
+          });
+    </script>
   </body>
 </html>
