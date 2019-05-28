@@ -14,7 +14,7 @@
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#b5e853"
       },
       "polygon": {
         "nb_sides": 5
@@ -30,24 +30,24 @@
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 2,
-        "opacity_min": 1.0,
+        "speed": 0.8,
+        "opacity_min": 0.5,
         "sync": false
       }
     },
     "size": {
-      "value": 0.1,
+      "value": 1,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 10,
-        "size_min": 0.01,
+        "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 50,
+      "distance": 30,
       "color": "#b5e853",
       "opacity": 1.0,
       "width": 1
@@ -61,7 +61,7 @@
       "out_mode": "out",
       "attract": {
         "enable": true,
-        "rotateX": 800,
+        "rotateX": 400,
         "rotateY": 400
       }
     }
@@ -94,7 +94,7 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 40
+        "distance": 50
       },
       "push": {
         "particles_nb": 4

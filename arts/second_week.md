@@ -44,7 +44,7 @@ url: https://lixiyu.github.io/arts/_week.html
 #### 超牛的js 特效工具
 
   [particles 微粒子特效(博客上特别火的微粒子连线动效)](https://github.com/VincentGarreau/particles.js)
-  [animejs -> js 动画特效](https://animejs.com/)
+  [canvas-nets 更精简的微粒子特效](https://github.com/hustcc/canvas-nest.js)
   [AOS 滚动特效](http://michalsnik.github.io/aos/)
   [3D特效的JS](http://mathis-biabiany.fr/experiment)
   [vivus 动态画图效果](http://maxwellito.github.io/vivus/)
