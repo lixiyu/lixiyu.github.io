@@ -1,8 +1,9 @@
 ---
-name: first_week
+short_name: first_week
 title: ARTS 第一周
 create_date: 20190409
 url: https://lixiyu.github.io/arts/first_week.html
+id:arts/first_week
 ---
 
 
@@ -59,7 +60,6 @@ class Solution(object):
 非常赞。以后就用这种方式打卡了。
 
 [jekyll step by step document](https://jekyllrb.com/docs/step-by-step/01-setup/)
-[jekyll 文档 中文版](https://jekyllcn.com/)
 
 
 在本地调试 git-pages 生成的样例，光看官方文档不管用。
