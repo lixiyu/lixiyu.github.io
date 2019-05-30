@@ -317,7 +317,7 @@ a.gitment-editor-logout-link:hover {
   font-size: 14px;
   line-height: 1.6;
 
-  background-color: #333;
+  background-color: #3330;
 
   color: #333;
   vertical-align: middle;
@@ -330,7 +330,7 @@ a.gitment-editor-logout-link:hover {
 }
 
 .gitment-editor-body textarea:focus {
-  background-color: #fff;
+  background-color: #333;
 }
 
 .gitment-editor-preview {
