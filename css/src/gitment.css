@@ -365,7 +365,7 @@ a.gitment-editor-footer-tip {
 
 a.gitment-editor-footer-tip:hover {
   color: #b5e853;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .gitment-comments-pagination {
