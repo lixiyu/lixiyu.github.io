@@ -3,7 +3,7 @@ short_name: first_week
 title: ARTS 第一周
 create_date: 20190409
 url: https://lixiyu.github.io/arts/first_week.html
-id:arts/first_week
+id: arts/first_week
 ---
 
 
