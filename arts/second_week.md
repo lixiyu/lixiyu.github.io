@@ -2,8 +2,8 @@
 short_name: second_week
 name: second_week
 create_date: 20190516
-url: https://lixiyu.github.io/arts/_week.html
-id:arts/second_week
+url: https://lixiyu.github.io/arts/second_week.html
+id: arts/second_week
 ---
 
 # 加油。。。至少坚持一年
