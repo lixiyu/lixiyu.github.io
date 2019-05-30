@@ -75,7 +75,11 @@
 }
 
 .gitment-comment-like-btn.liked {
-  color: #F44336;
+  color: #63c0f5;
+}
+
+.gitment-comment-like-btn.liked:hover {
+  color: #b5e853;
 }
 
 .gitment-header-like-btn svg {
@@ -88,7 +92,8 @@
 
 .gitment-header-like-btn:hover svg ,
 .gitment-header-like-btn.liked:hover svg ,
-.gitment-comment-like-btn:hover svg {
+.gitment-comment-like-btn:hover svg ,
+.gitment-comment-like-btn.liked:hover svg {
   stroke:#b5e853;
   stroke-width:2;
   fill: #b5e853;
