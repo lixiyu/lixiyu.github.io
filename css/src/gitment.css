@@ -97,6 +97,9 @@
 .gitment-comment-like-btn svg {
   vertical-align: middle;
   height: 20px;
+  stroke:#63c0f5;
+  stroke-width:2;
+  fill: none;
 }
 
 .gitment-header-like-btn.liked svg,
@@ -154,6 +157,7 @@ a.gitment-header-issue-link:hover {
 
 .gitment-editor-avatar .gitment-github-icon {
   fill: #fff;
+  background-color:#484848;
 }
 
 .gitment-comment-main,
@@ -196,7 +200,7 @@ a.gitment-header-issue-link:hover {
 .gitment-comment-header {
   margin: 12px 15px;
   color: #666;
-  background-color: #fff;
+  background-color: #fff0;
   border-radius: 3px;
 }
 
@@ -209,7 +213,7 @@ a.gitment-header-issue-link:hover {
 a.gitment-comment-name,
 a.gitment-comment-name:visited {
   font-weight: 600;
-  color: #666;
+  color: #63c0f5;
 }
 
 .gitment-editor-tabs {
@@ -259,6 +263,8 @@ a.gitment-editor-logout-link:visited {
 }
 
 
+a:hover,
+a.gitment-comment-name:hover,
 a.gitment-footer-project-link:hover,
 a.gitment-editor-login-link:hover,
 a.gitment-editor-logout-link:hover {
@@ -462,7 +468,7 @@ a.gitment-editor-footer-tip:hover {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
-  color: #333;
+  color: #eaeaea;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.5;
