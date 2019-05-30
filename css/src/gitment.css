@@ -1,3 +1,10 @@
+.split_line{
+  border: 1px dashed #b5e853;
+  width: 100%;
+  height:0px;
+  margin: 40px 0;
+}
+
 .gitment-container {
   font-family: sans-serif;
   font-size: 14px;
@@ -297,15 +304,13 @@ a.gitment-editor-logout-link:hover {
   top: 0;
   bottom: 50px;
   pointer-events: none;
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .9));
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .9));
 }
 
 .gitment-comment-body-folded::after {
   display: block !important;
   content: "Click to Expand" !important;
   text-align: center;
-  color: #666;
+  color: rgba(255,255,255,0.75);
   position: absolute;
   width: 100%;
   height: 50px;
@@ -313,7 +318,8 @@ a.gitment-editor-logout-link:hover {
   left: 0;
   bottom: 0;
   pointer-events: none;
-  background: rgba(255, 255, 255, .9);
+  background: -webkit-linear-gradient(top, rgba(99, 192, 245, 0.01), rgba(99, 192, 245, 1));
+  background: linear-gradient(180deg, rgba(99, 192, 245, 0.01), rgba(99, 192, 245, 1));
 }
 
 .gitment-editor-body {
