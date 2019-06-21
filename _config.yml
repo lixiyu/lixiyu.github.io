@@ -1,15 +1,31 @@
 theme: jekyll-theme-hacker
 title: ARTS
 description: [不积跬步，无以至千里]
-show_downloads: false
 #google_analytics: [Your Google Analytics tracking ID]
 
 
 # Gitment
 gitment:
-    owner: lixiyu
-    repo: lixiyu.github.io
-    oauth:
-        client_id: 4df19928d32c66e715ce
-        client_secret: 90923b7877af194fc9d40250cdef958cb57411d7
+  owner: lixiyu
+  repo: lixiyu.github.io
+  oauth:
+    client_id: 4df19928d32c66e715ce
+    client_secret: 90923b7877af194fc9d40250cdef958cb57411d7
 
+
+
+
+########### 集合, 分组管理文件 #################
+
+collections_dir: notes
+collections:
+  arts:
+    output: true
+    permalink: /:collection/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "arts"
+    values:
+      layout: arts
