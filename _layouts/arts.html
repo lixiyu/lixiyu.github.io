@@ -66,7 +66,18 @@
         padding-left: 10px;
         border-left: 1px dotted #666;
       }
+
+      section img {
+        max-width: 40%;
+      }
+
     </style>
+    <script>
+      var codes = document.getElementsByClassName("language-C");
+      for(var i=0;i<codes.length ;i++){
+        codes[i].parentElement.outerHTML = "<blockquote>"+ codes[i].parentElement.outerHTML +"</blockquote>";
+      }
+    </script>
     {% endif %}
 
 
