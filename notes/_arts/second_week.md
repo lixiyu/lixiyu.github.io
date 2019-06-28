@@ -7,7 +7,7 @@ create_date: 20190516
 
 
 ## AIgorithm
-(这周把上次用 Python 做的那个提再用 c 语言做一遍吧，先熟悉熟悉c语言热身)
+> (这周把上次用 Python 做的那个题再用 c 语言做一遍吧，先熟悉熟悉c语言热身)
 
 
 ### 题目描述：
@@ -37,7 +37,7 @@ create_date: 20190516
 
 > 果然，只有换成 C 语言，才能体会这道题的真正含义。 <br/>
 > 先看看 python 版 和 C 语言 暴力遍历版 和 C 语言 Hash table 版的差异：  <br/>
-> 如图，C 语言版内存消耗是 Python 的一半， 耗时比 Python 强了 10 倍  <br/>
+> 如图，C 语言版内存消耗是 Python 的一半， 耗时不到 Python 的 1/10   <br/>
 > 
  ![效果对比图](/static/img/arts/second_week_compare.jpg)
 
