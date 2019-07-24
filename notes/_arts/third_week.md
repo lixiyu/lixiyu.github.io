@@ -127,7 +127,7 @@ int calculate(char * s){
 
 > 这种方法原来比直接用数组蠢一些，运行时间更长了(上一版的4、5备)，占用内存更多了(上一版的5倍)。本来是想减小内存占用的...
 
-```
+```C
 
 #include <stdlib.h> 
 
@@ -236,13 +236,9 @@ int calculate(char * s){
                 break;
             }
         }
-
-    }
-    
+    }   
     return p_item->num;
 }
-
-
 
 ```
 
@@ -252,12 +248,17 @@ int calculate(char * s){
 
 ## Tips
 (学习至少一个技术技巧)
+计算机程序的思路
 
 
 ## Share
 (分享一篇有观点和思考的技术文章)
 
 
+docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker
 
 
-[]()
+[ libra 官网 ](https://libra.org/zh-CN/?noredirect=zh-Hans-CN)
+[如何学好C语言](https://coolshell.cn/articles/4102.html/comment-page-5)
+[Syncd 自动化部署工具](https://syncd.cc/docs/#/)
+[curl 花式用法](https://www.cnblogs.com/hujiapeng/p/8470099.html)
