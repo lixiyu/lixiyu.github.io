@@ -87,6 +87,8 @@ char ** findRepeatedDnaSequences(char * s, int *returnSize){
 
 ## Share
 
+服务器推送技术分享
+https://www.bilibili.com/video/av54754510
 
 一个学习 Linux 的网站，会教你从源码安装一个操作系统，但是需要 3个月到半年的时间才可能跑通一次
 [Linux From Scratch LFS](http://www.linuxfromscratch.org/)
