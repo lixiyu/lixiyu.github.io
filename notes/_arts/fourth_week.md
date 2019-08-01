@@ -82,20 +82,28 @@ char ** findRepeatedDnaSequences(char * s, int *returnSize){
 
 
 ## Tips
-(学习至少一个技术技巧)
+
 
 
 ## Share
-(分享一篇有观点和思考的技术文章)
 
+
+一个学习 Linux 的网站，会教你从源码安装一个操作系统，但是需要 3个月到半年的时间才可能跑通一次
+[Linux From Scratch LFS](http://www.linuxfromscratch.org/)
+
+[耗子叔ARTS成果展](https://time.geekbang.org/column/article/107806)
 
 [优秀的博客，各种好资源，好工具，常看看](https://elfgzp.cn/timeline.html)
+
 [c语言 二维数组内存分配demo](https://blog.csdn.net/handsome_926/article/details/8233744)
 
 
 ### 好用的 API 文档工具
+
 [YApi](https://hellosean1025.github.io/yapi/)
+
 [swagger](https://swagger.io/)
+
 [postman](https://www.getpostman.com/)
 
 

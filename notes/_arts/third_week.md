@@ -32,9 +32,6 @@ create_date:   2019-07-01
 输出: 23
 ```
 
-来源：力扣（LeetCode）<br/>
-链接：https://leetcode-cn.com/problems/basic-calculator <br/>
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。<br/>
 
 
 ### 解题:
@@ -247,8 +244,50 @@ int calculate(char * s){
 
 
 ## Tips
-(学习至少一个技术技巧)
-计算机程序的思路
+
+> 分享几个特别特别小的Tips 吧。
+
+### 1. kibana 里怎么模糊搜索，虽然很简单，但是被这个问题堵了好几次了，每次都不能很容易的搜到解决方案
+
+   输入框里填上 `*your_key_words*`， `*`表示通配符，对，就是这么简单。<br/>
+   但是千万不要往外加任何单双引号等任何东西，否则会导致什么也搜不到<br/>
+   这个问题之所以烦人，是因为每次搜 kibana 模糊搜索 的时候，总是更容易看到一些用法特别复杂的博客<br/>
+   因此附上一个质量较好的博客地址: [ELK：kibana使用的lucene查询语法](https://segmentfault.com/a/1190000002972420)
+
+### 2. presot 如何给 json 里解出来的数组加上序号。并且只保留每个 json 里排序前三的数据。
+
+>   就是把这个表:
+
+   | id | value |
+   |----|-------|
+   | 1  | [{"n":"11494","s":587},{"n":"174647","s":344},{"n":"16394","s":343},{"n":"63573","s":333}] |
+   | 2  | [{"n":"10129","s":56}] |
+
+>   拆成这样,且只保留每行数据里的前三个:
+
+   | id | num| value_n | value_s |
+   |----|----|---------|---------|
+   | 1  | 1  | 11494   |  587    |
+   | 1  | 2  | 174647  |  344    |
+   | 1  | 3  | 16394   |  343    |
+   | 2  | 1  | 10129   |  56     |
+
+
+>   方法就是这个(可能是最二的办法了, 思路直接看代码&查文档吧)：
+
+```
+
+    select
+        id,
+        explode_value['num'] as num,
+        explode_value['n'] as vlaue_n,
+        explode_value['s'] as value_s
+    from
+        table_name
+    cross join UNNEST(filter(zip_with(sequence(1,3), cast(JSON_PARSE(value) as ARRAY(MAP(VARCHAR, integer))), (x,y)-> map_concat(y,map(ARRAY['num'],ARRAY[x]))), x-> x IS NOT NULL AND x['num'] IS NOT NULL)) as t(explode_value)
+
+```
+
 
 
 ## Share
@@ -258,7 +297,7 @@ int calculate(char * s){
 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker
 
 
-[ libra 官网 ](https://libra.org/zh-CN/?noredirect=zh-Hans-CN)
-[如何学好C语言](https://coolshell.cn/articles/4102.html/comment-page-5)
-[Syncd 自动化部署工具](https://syncd.cc/docs/#/)
-[curl 花式用法](https://www.cnblogs.com/hujiapeng/p/8470099.html)
+[ libra 官网 ](https://libra.org/zh-CN/?noredirect=zh-Hans-CN) <br/>
+[如何学好C语言](https://coolshell.cn/articles/4102.html/comment-page-5) <br/>
+[Syncd 自动化部署工具](https://syncd.cc/docs/#/) <br/>
+[curl 花式用法](https://www.cnblogs.com/hujiapeng/p/8470099.html) <br/>
