@@ -295,6 +295,7 @@ int calculate(char * s){
 
 
 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker
+https://github.com/jesseduffield/lazydocker
 
 
 [ libra 官网 ](https://libra.org/zh-CN/?noredirect=zh-Hans-CN) <br/>
