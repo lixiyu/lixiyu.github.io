@@ -1,5 +1,6 @@
 ---
 title: 2020_起明专业课选修指南_听课感悟
+description: 对互联网对社会变革的分析，以及人才需求的变化趋势探讨
 create_date: 2020-06-02
 finish_date: 2020-06-03
 time_taken:  2 day
