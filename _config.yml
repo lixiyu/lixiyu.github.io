@@ -25,6 +25,9 @@ collections:
   fill_map:
     output: false
     permalink: /:collection/:name
+  tmp_show:
+    output: true
+    permalink: /:collection/:name
   chaos:
     output: true
     permalink: /:collection/:name
@@ -40,3 +43,8 @@ defaults:
       type: "chaos"
     values:
       layout: default
+  - scope:
+      path: ""
+      type: "tmp_show"
+    values:
+      layout: architect
