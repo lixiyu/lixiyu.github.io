@@ -5,7 +5,7 @@ lang: zh-cmn-Hans
 #google_analytics: [Your Google Analytics tracking ID]
 
 
-# Gitment
+# Gitment  评论互动模块
 gitment:
   owner: lixiyu
   repo: lixiyu.github.io
@@ -32,20 +32,28 @@ collections:
   chaos:
     output: true
     permalink: /:collection/:name
+  bridge:
+    output: true
+    permalink: /:collection/:path
 
 defaults:
   - scope:
       path: ""
-      type: "arts"
+      type: arts
     values:
       layout: arts
   - scope:
       path: ""
-      type: "chaos"
+      type: chaos
     values:
       layout: default
   - scope:
       path: ""
-      type: "tmp_show"
+      type: tmp_show
     values:
       layout: architect
+  - scope:
+      path: ""
+      type: bridge
+    values:
+      layout: bridge

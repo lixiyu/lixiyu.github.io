@@ -291,12 +291,17 @@ int calculate(char * s){
 
 
 ## Share
-(分享一篇有观点和思考的技术文章)
 
+一个管理docker 的小工具，让你更轻松的使用docker
+ ![demo展示图](/static/img/arts/lazydocker_demo.gif)
 
+快捷使用<br/>
 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker
-https://github.com/jesseduffield/lazydocker
-
+ 
+项目地址： [https://github.com/jesseduffield/lazydocker]()
+<br/>
+<br/>
+### 其他不错的信息推荐：
 
 [ libra 官网 ](https://libra.org/zh-CN/?noredirect=zh-Hans-CN) <br/>
 [如何学好C语言](https://coolshell.cn/articles/4102.html/comment-page-5) <br/>

@@ -90,3 +90,6 @@ kylin 的 topN 度量。当需要查询 topN 的时候，加上这个，可以�
  [英文版 bash 快捷键](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 
  [中文版 bash 快捷键](https://linuxtoy.org/archives/bash-shortcuts.html)
+ 
+ 
+ [好用的图床工具](https://sm.ms)

@@ -225,7 +225,9 @@ defaults:
 >
 >   [Hbase 还不错的理解，但可能有谬误](https://blog.csdn.net/qq_25371579/article/details/50894145)
 >
->   [科学上网亲测可用资源](https://yizibi.github.io/2019/05/16/%E5%85%8D%E8%B4%B9%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-%E6%97%A0%E9%9C%80%E9%85%8D%E7%BD%AEVPS-%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB-%E4%B8%80%E9%94%AE%E4%B8%8A%E7%BD%91(%E6%94%B6%E8%97%8F)/)
+>   [科学上网之起点](https://yizibi.github.io/2019/05/16/%E5%85%8D%E8%B4%B9%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-%E6%97%A0%E9%9C%80%E9%85%8D%E7%BD%AEVPS-%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB-%E4%B8%80%E9%94%AE%E4%B8%8A%E7%BD%91(%E6%94%B6%E8%97%8F)/)
+>
+>   [一个不可描述的网站](https://niao.su/)
 >
 >   [Mac 高效开发工具集散地](http://www.sdifen.com/)
 

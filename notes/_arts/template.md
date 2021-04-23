@@ -43,7 +43,6 @@ time_taken:
 
 
 
-
-(好用的图床工具)[https://sm.ms]
-[一位大神的博客，彦光同学](http://s1nh.org)
+[好用的图床工具](https://sm.ms)
+[一位大神的博客，彦光的同学](http://s1nh.org)
 
