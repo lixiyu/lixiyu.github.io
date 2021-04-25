@@ -27,7 +27,7 @@
       </section>
 
       <div class="split_line"></div>
-      <section id="gitmentContainer"></section>
+      <section id="gitalk-container"></section>
     </div>
 
     <!-- 背景特效 -->
@@ -35,20 +35,21 @@
 
     <!-- Gitment -->
     {% if site.gitment.repo %}
-    <link rel="stylesheet" href="/static/css/src/gitment.css">
-    <script src="/static/js/src/gitment.browser.js"></script>
+    <!-- <link rel="stylesheet" href="/static/css/src/gitment.css">
+    <script src="/static/js/src/gitment.browser.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script>
-        var gitment = new Gitment({
-                id: '{{ page.collection }}/{{page.title}}',
+        var gitalk  = new Gitalk({
+                client_id: '{{site.gitalk.client_id}}',
+                client_secret: '{{site.gitalk.client_secret}}',
                 owner: '{{ site.gitment.owner }}',
+                admin: ['{{ site.gitment.owner }}'],
                 repo: '{{site.gitment.repo}}',
-                oauth: {
-                    client_id: '{{site.gitment.oauth.client_id}}',
-                    client_secret: '{{site.gitment.oauth.client_secret}}',
-                },
-                perPage: 200,
+                id: '{{ page.collection }}/{{page.title}}',
+                distractionFreeMode: false,
             });
-        gitment.render('gitmentContainer')
+        gitment.render('gitalk-container')
     </script>
     {% endif %}
 

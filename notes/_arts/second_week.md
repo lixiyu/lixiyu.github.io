@@ -38,21 +38,21 @@ create_date: 20190516
 > 果然，只有换成 C 语言，才能体会这道题的真正含义。 <br/>
 > 先看看 python 版 和 C 语言 暴力遍历版 和 C 语言 Hash table 版的差异：  <br/>
 > 如图，C 语言版内存消耗是 Python 的一半， 耗时不到 Python 的 1/10   <br/>
-> 
+>
  ![效果对比图](/static/img/arts/second_week_compare.jpg)
 
 
 #### 暴力搜索版
 
-> 时间复杂度 N*N 
-> 
+> 时间复杂度 N*N
+>
 
 ```C
 
 int numJewelsInStones(char * J, char * S){
     int cnt = 0;
     char *JJ=J;
-    
+
     while(*S!='\0'){
         J = JJ;
         while(*J != '\0'){
@@ -65,7 +65,7 @@ int numJewelsInStones(char * J, char * S){
         }
         S++;
     }
-  
+
     return cnt;
 }
 
@@ -76,7 +76,7 @@ int numJewelsInStones(char * J, char * S){
 #### Hash table 版
 
 > 时间复杂度 2N
-> 
+>
 
 ```C
 
@@ -90,13 +90,13 @@ int numJewelsInStones(char * J, char * S){
     int dic[60] = {0};
     int cnt = 0;
     int key;    
-    
+
     while(*J != '\0'){
         key = getKey(*J);
         dic[key] = 1;
         J++;
     }
-    
+
     while(*S!='\0'){
         key = getKey(*S);
         if(dic[key] == 1){
@@ -104,7 +104,7 @@ int numJewelsInStones(char * J, char * S){
         }
         S++;
     }
-  
+
     return cnt;
 }
 
@@ -125,7 +125,7 @@ int numJewelsInStones(char * J, char * S){
 > 看来还得探索探索更高度定制化的工具，比如能在 markdown 里写 css 样式的。<br/>
 > Mastering Markdown 文档里的内容没啥好分享的，直接看这个博客页面的效果更直观。<br/>
 > 基本上就是这些样式的写法:
-> 
+>
 >   * 标题(1级到6级)
 >   * 下划线、加粗、删除线
 >   * 列表(有序、无序)
@@ -172,7 +172,7 @@ defaults:
 
 
 ## Tips
-> 
+>
 > (这周分享两个技术技巧吧)
 
 ### Tip1 canvas-nets
@@ -204,7 +204,7 @@ defaults:
 
 > 想对比更多第三方评论系统工具的，可以看看这位大神整理的资料。数量非常多，流行的、停止服务的都有...
 >
->  [第三方评论系统推荐](也不是完全免费://blog.shuiba.co/comment-systems-recommendation)
+>  [第三方评论系统推荐(也不是完全免费)](http://blog.shuiba.co/comment-systems-recommendation)
 
 
 ## Share
@@ -270,9 +270,9 @@ defaults:
 >   本来是挑了一个自我感觉很不错的主题的。由于审美能力太差，也不擅长挑出美美的样式，最后被我弄着现在的惨状了。不过自己看还行，没啥太违和的地方。    <br/>
 >
 >   目录不会加了，因为刚开始写，质量基本上都很差，所以就不弄目录来出丑了。    <br/>
-> 
+>
 
-    
+
 ## 求分享
 
 > 有没有人能分享一下，支持自定义 css 的 MarkDown 工具？

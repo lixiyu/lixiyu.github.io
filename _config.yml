@@ -5,13 +5,12 @@ lang: zh-cmn-Hans
 #google_analytics: [Your Google Analytics tracking ID]
 
 
-# Gitment  评论互动模块
-gitment:
+# gitalk  评论互动模块
+gitalk:
   owner: lixiyu
   repo: lixiyu.github.io
-  oauth:
-    client_id: 4df19928d32c66e715ce
-    client_secret: 90923b7877af194fc9d40250cdef958cb57411d7
+  client_id: 769bd02c3ce238306853
+  client_secret: 662e8db8c389bd04896d1a8abf8b3f0c5758f891
 
 
 

@@ -35,8 +35,7 @@ time_taken:
 
 
 
+[git hub 访问加速方案] (https://zhuanlan.zhihu.com/p/337469043)
 
 
-(好用的图床工具)[https://sm.ms]
-[一位大神的博客，彦光的同学](http://s1nh.org)
 
