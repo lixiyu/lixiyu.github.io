@@ -45,7 +45,7 @@ defaults:
       path: ""
       type: chaos
     values:
-      layout: default
+      layout: architect
   - scope:
       path: ""
       type: tmp_show
